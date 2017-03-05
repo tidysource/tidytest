@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/danielcobo/tidytest.git"
+    "url": "git+https://github.com/tidysource/tidytest.git"
   },
   "keywords": [
     "testing"
@@ -16,9 +16,9 @@
   "author": "TidySource (Daniel Cobo)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/danielcobo/tidytest/issues"
+    "url": "https://github.com/tidysource/tidytest/issues"
   },
-  "homepage": "https://github.com/danielcobo/tidytest#readme",
+  "homepage": "https://github.com/tidysource/tidytest#readme",
   "dependencies": {
     "tap-colorize": "^1.2.0",
     "tape": "^4.6.3"
