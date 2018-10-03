@@ -4,6 +4,8 @@
 Setup testing environment
 =========================
 */
+
+//Configure
 var test = require('tape');
 var colorize = require('tap-colorize');
 var colorizeOptions = {
@@ -12,6 +14,7 @@ var colorizeOptions = {
 	info : '#EEEEEE'
 };
 
+//Pass on
 test.createStream()
 	.pipe(colorize(colorizeOptions))
 	.pipe(process.stdout);
