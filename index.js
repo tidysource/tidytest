@@ -12,6 +12,7 @@ var colorizeOptions = {
 	fail : '#FE5A4E',
 	info : '#EEEEEE'
 };
+
 test.createStream()
 	.pipe(colorize(colorizeOptions))
 	.pipe(process.stdout);
