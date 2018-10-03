@@ -4,7 +4,6 @@
 Setup testing environment
 =========================
 */
-//Testing modules
 var test = require('tape');
 var colorize = require('tap-colorize');
 var colorizeOptions = {
